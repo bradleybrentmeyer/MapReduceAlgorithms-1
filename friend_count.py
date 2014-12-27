@@ -1,13 +1,13 @@
 import MapReduce
 import sys
 
-"""
+""" test
 MapReduce algorithm to count the number of friends each person has in a social network dataset consisting of key-value pairs where each key is a person and each value is a friend of that person
 implemented in the Simple Python MapReduce Framework
 
 """
 
-mr = MapReduce.MapReduce()
+mr = MapReduce.MapReduce() 
 
 def mapper(record):
     # key: Person name
